@@ -1,0 +1,64 @@
+.contactsection {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    justify-content: space-evenly;
+}
+
+
+.h1-style-contactus {
+    display: inline-block !important;
+    font-size: 2.5rem !important;
+    font-weight: 400 !important;
+    border-bottom: 3px solid #516beb !important;
+}
+
+.contactimage{
+    width: 80%; 
+    max-width: 100%;
+    height: 60% !important;
+}
+.contactdes{
+    padding: 6rem 3rem;
+    width: 40%;
+}
+
+.contactdes button{
+    background-color: #516beb !important;
+}
+
+.contactusbtn{
+    text-decoration: none;
+    color: white;
+}
+
+.contactusbtn:hover{
+    color: white;
+}
+
+.contactpara{
+    font-size: 1.1rem !important;
+    margin-top: 10rem;
+}
+
+@media (min-width: 768px) {
+    .contactsection {
+        flex-direction: row; 
+        /* justify-content: space-between; */
+        align-items: flex-start; 
+        text-align: left; 
+    }
+    .contactpara{
+        margin-top: 0;
+    }
+}
+@media (max-width:768px) {
+    .contactdes{
+        padding: 0;
+        width: 100%;
+    }    
+    .contactpara{
+        margin-top: 0rem;
+    }
+}
