@@ -356,7 +356,7 @@ exports.addToCart = async (req, res) => {
     console.log(price);
     // Find the user by userId
     const user = await users.findById(userId);
-
+    console.log(user);
     if (!user) {
       return res.status(404).json({ message: "User not found" });
     }
@@ -380,7 +380,7 @@ exports.getCartItem = async (req, res) => {
   try {
     console.log("object22")
     console.log(req)
-    const userId = req.params.id;
+    const userId = req.params._id;
     console.log(userId)
     const user = await users.findById(userId);
     

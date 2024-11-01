@@ -127,16 +127,7 @@ export default function Footer() {
                   target="_blank"
                   className="text-reset"
                 >
-                  Suryansh Pandey
-                </Link>
-              </p>
-              <p>
-                <Link
-                  to="https://www.linkedin.com/in/aryan-raj-555768252/"
-                  target="_blank"
-                  className="text-reset"
-                >
-                  Aryan Raj
+                  Vikram Singh
                 </Link>
               </p>
             </MDBCol>
